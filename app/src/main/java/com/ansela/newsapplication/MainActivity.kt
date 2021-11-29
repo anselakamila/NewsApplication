@@ -118,17 +118,18 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                             }
 
 
-                        } else {
-                            Toast.makeText(this@MainActivity, "Data Faild", Toast.LENGTH_SHORT)
-                        }
-                    }
-
-                    override fun onFailure(call: Call<ResponseNews>, t: Throwable) {
-                        Log.d("Response", "Failed :" + t.localizedMessage)
-                        loading.dismiss()
+                }
+                    } else {
+                        Toast.makeText(this@MainActivity, "Data Faild", Toast.LENGTH_SHORT)
                     }
                 }
+
+                override fun onFailure(call: Call<ResponseNews>, t: Throwable) {
+                    Log.d("Response", "Failed :" + t.localizedMessage)
+                    loading.dismiss()
+                }
             })
+
     }
 }
 
