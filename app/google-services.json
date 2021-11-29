@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "332220630942",
+    "project_id": "newsappidn-b9e6f",
+    "storage_bucket": "newsappidn-b9e6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332220630942:android:7034f43ca73479d67db88f",
+        "android_client_info": {
+          "package_name": "com.ansela.newsapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332220630942-t21gf96ml2hr7nrken07tcoud86r3509.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt0Ce2KSjT__1kY-d_MDKMA-q_Vz41No0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332220630942-t21gf96ml2hr7nrken07tcoud86r3509.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
